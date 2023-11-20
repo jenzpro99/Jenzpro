@@ -19,7 +19,7 @@ b = '\x1b[38;5;57m'
 h = '\x1b[45m'
 m = '\x1b[38;5;198m'
 
-def aox(script,target_file="listsite.txt"):
+def aox(script,target_file="list.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
